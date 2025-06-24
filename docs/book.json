@@ -1,0 +1,7 @@
+{
+    "title": "炫语言手册",
+    "plugins": [
+        "highlight",
+        "copy-code"
+    ]
+}

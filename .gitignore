@@ -8,8 +8,7 @@ build/
 *.ipdb
 *.ilk
 *.pch
-.vsidx
-.vs
+.vs/
 UI_ZIP.zip
 Debug/
 Release/

@@ -1,0 +1,12 @@
+*.log
+*.tmp
+build/
+*.exe
+*.pdb
+*.obj
+*.iobj
+*.ipdb
+*.ilk
+UI_ZIP.zip
+Debug/
+Release/

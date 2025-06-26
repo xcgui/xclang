@@ -10,3 +10,5 @@ build/
 UI_ZIP.zip
 Debug/
 Release/
+Debug64/
+Release64/

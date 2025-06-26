@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="WebSocket服务器" rect="20,20,665,507" showT="true" windowStyle="2031">
+	<layoutEleUI rect="8,30,400,45" showT="true" expandT="true">
+		<shapeText content="IP:" layout.height="20" layout.margin="25,10,0,0" layout.width="auto" rect="136,16,100,20" showT="true" expandT="true" />
+		<editUI content="127.0.0.1" layout.margin="0,10,0,0" multiLine="false" name="IP框" rect="62,41,89,20" showT="true" expandT="true" />
+		<shapeText content="端口:" layout.height="20" layout.margin="25,10,0,0" layout.width="auto" rect="156,36,100,20" showT="true" expandT="true" />
+		<editUI content="8089" layout.margin="0,10,0,0" multiLine="false" name="端口框" rect="82,61,45,20" showT="true" expandT="true" />
+		<buttonUI content="开启" layout.margin="15,10,0,0" name="按钮_开启服务器" rect="311,24,60,20" showT="true" expandT="true" />
+		<buttonUI content="停止" enable="false" layout.margin="20,10,0,0" name="按钮_关闭服务器" rect="331,44,60,20" showT="true" expandT="true" />
+	</layoutEleUI>
+	<layoutEleUI padding="10,10,10,10" rect="8,74,400,425" showT="true" expandT="true">
+		<buttonUI content="发送公告" layout.margin="0,0,0,6" name="控制台_发送消息" rect="184,401,60,25" showT="true" expandT="true" />
+		<editUI layout.height="%13(百分比)" layout.width="fill" layoutControl="true" multiLine="true" name="_控制台_消息框" rect="103,70,380,373" scrollBarAuto="true" scrollBarShowV="true" showT="true" expandT="true" />
+		<editUI layout.height="%80(百分比)" layout.margin="0,10,0,0" layout.width="fill" layoutControl="true" multiLine="true" name="日志框" rect="123,90,380,373" scrollBarAuto="true" scrollBarShowV="true" showT="true" expandT="true" />
+	</layoutEleUI>
+	<layoutEleUI layout.height="fill" padding="10,10,10,10" rect="407,30,250,100" showT="true" expandT="true">
+		<listUI font="@ID_FONT_1" layout.align="auto" layout.height="fill" layout.width="fill" name="连接列表" rect="112,139,100,100" showT="true" textColor="@ID_COLOR_2" expandT="true" />
+	</layoutEleUI>
+</windowUI>

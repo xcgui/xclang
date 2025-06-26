@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI border="2,30,2,2" center="true" content="炫彩界面库 - 我的窗口名" rect="20,20,653,396" showT="true" windowStyle="2031">
+	<layoutEleUI event_XE_PAINT_END="true" expandT="true" name="布局元素1" rect="48,61,543,179" showT="true" />
+	<sliderBarUI horizon="true" name="滑动条1" rect="64,308,518,20" showT="true" expandT="true" />
+</windowUI>

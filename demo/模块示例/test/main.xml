@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI bkInfoM="{99:1.9.9;98:1(0);5:2(15)20(1)21(3)26(1)22(-1)23(255)9(10,10,10,10);5:2(15)20(1)21(3)26(1)22(-986896)23(255);}" center="true" content="炫彩界面库 - 我的窗口名" dragWindow="true" overlayBorder="true" rect="20,20,721,598" shadowAngleSize="10" shadowRightAngle="false" showT="true" transparentAlpha="255" transparentFlag="shadow" windowStyle="0">
+	<layoutEleUI bkInfoM="{99:1.9.9;98:536870912(0);5:2(15)20(1)21(3)26(1)22(-986896)23(255)9(10,10,0,0);}" expandT="true" layout.align="auto" layout.height="25" layout.width="fill" name="布局元素_顶部标题栏" rect="0,8,100,100" showT="true">
+		<layoutEleUI expandT="true" layout.height="fill" layout.width=":1" name="布局元素_窗口标题区" rect="297,9,100,100" showT="true">
+			<shapeText content="OP插件模块和雷电模拟器模块 - 示例" expandT="true" font="@ID_FONT_1" layout.height="fill" layout.width="fill" name="形状文本_窗口标题" rect="172,10,100,20" showT="true" textAlign="DT_CENTER,DT_VCENTER,DT_SINGLELINE" />
+		</layoutEleUI>
+		<layoutEleUI bkInfoM="{99:1.9.9;5:2(15)20(1)21(3)26(1)22(-1)23(255)9(0,10,0,0);}" expandT="true" layout.alignH="center" layout.alignV="center" layout.height="fill" layout.space="5" layout.width="80" name="布局元素_按钮控制区" rect="0,0,100,100" showT="true">
+			<buttonUI bkInfoM="{99:1.9.9;98:16(0)32(1)64(2)2(3);6:2(15)20(1)21(3)26(1)22(-7742348)23(255);6:2(15)20(1)21(3)26(1)22(-9054628)23(255);6:2(15)20(1)21(3)26(1)22(-8201621)23(255);6:2(15)20(1)21(3)26(1)22(1351212148)23(80);}" buttonType="min" cursor="IDC_HAND" expandT="true" layout.align="auto" layout.height="15" layout.width="15" name="按钮_最小化" rect="108,97,60,25" showT="true" toolTip="最小化" />
+			<buttonUI bkInfoM="{99:1.9.9;98:16(0)32(1)64(2)2(3);6:2(15)20(1)21(3)26(1)22(-8924423)23(255);6:2(15)20(1)21(3)26(1)22(-12796169)23(255);6:2(15)20(1)21(3)26(1)22(-9646343)23(255);6:2(15)20(1)21(3)26(1)22(1350030073)23(80);}" buttonType="max" cursor="IDC_HAND" expandT="true" layout.height="15" layout.width="15" name="按钮_最大化" rect="190,108,60,25" showT="true" toolTip="最大化" />
+			<buttonUI bkInfoM="{99:1.9.9;98:16(0)32(1)64(2)2(3);6:2(15)20(1)21(3)26(1)22(-9210888)23(255);6:2(15)20(1)21(3)26(1)22(-11053065)23(255);6:2(15)20(1)21(3)26(1)22(-9145096)23(255);6:2(15)20(1)21(3)26(1)22(1349743608)23(80);}" buttonType="close" cursor="IDC_HAND" expandT="true" layout.height="15" layout.width="15" name="按钮_关闭" rect="158,161,60,25" showT="true" toolTip="关闭" />
+		</layoutEleUI>
+	</layoutEleUI>
+	<layoutEleUI expandT="true" layout.height="25" layout.space="5" layout.width="fill" name="布局元素1" padding="3" rect="0,40,817,25" showT="true">
+		<editUI content="D:\leidian9\LDPlayer9\ldconsole.exe" expandT="true" name="编辑框_路径" rect="27,44,239,25" showT="true" />
+		<buttonUI content="初始化" expandT="true" name="按钮_初始化" rect="305,184,60,25" showT="true" />
+		<buttonUI content="绑定测试" expandT="true" name="按钮_绑定测试" rect="341,10,60,25" showT="true" />
+		<buttonUI content="后台截图" expandT="true" name="按钮_后台截图" rect="405,13,60,25" showT="true" />
+		<buttonUI content="后台找图" expandT="true" name="按钮_后台找图" rect="456,13,60,25" showT="true" />
+		<buttonUI content="OP鼠标" expandT="true" name="按钮_OP鼠标" rect="530,14,60,25" showT="true" />
+		<buttonUI content="雷电输入" expandT="true" name="按钮_雷电输入" rect="591,13,60,25" showT="true" />
+		<buttonUI content="雷电点击" expandT="true" name="按钮_雷电点击" rect="660,10,60,25" showT="true" />
+	</layoutEleUI>
+	<editUI edit.autoWrap="true" expandT="true" multiLine="true" name="编辑框_日志" rect="17,82,681,491" showT="true" />
+</windowUI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="WebSocket客户端" rect="20,20,639,568" showT="true" windowStyle="2031">
+	<layoutEleUI layout.height="fill" layout.width="fill" padding="10,10,10,10" rect="8,30,100,100" showT="true" expandT="true">
+		<layoutEleUI layout.height="%70(百分比)" layout.width="fill" padding="2,2,2,2" rect="28,50,100,100" showT="true" expandT="true">
+			<editUI layout.height="fill" layout.width="%70(百分比)" multiLine="true" name="消息展示框" rect="133,86,370,320" showT="true" expandT="true" />
+			<listBoxUI layout.height="fill" layout.margin="10,0,0,0" layout.width="%30(百分比)" name="在线列表" rect="502,222,127,320" scrollBarShowH="false" showT="true" expandT="true" />
+		</layoutEleUI>
+		<layoutEleUI layout.height=":1" layout.width="fill" rect="163,425,100,100" showT="true" expandT="true">
+			<editUI layout.height="%80(百分比)" layout.margin="0,10,0,0" layout.width="fill" multiLine="true" name="待发送消息框" rect="234,73,100,20" showT="true" expandT="true" />
+			<buttonUI content="发送消息" layout.align="center" layout.float="true" layout.margin="0,5,0,0" name="发送消息按钮" rect="484,131,100,25" showT="true" expandT="true" />
+		</layoutEleUI>
+	</layoutEleUI>
+</windowUI>

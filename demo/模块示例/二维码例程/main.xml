@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="炫彩界面库 - 我的窗口名" rect="20,20,548,428" showT="true" windowStyle="2031">
+	<shapePicture name="形状图片1" rect="29,71,335,305" showT="true" expandT="true" />
+	<buttonUI content="生成二维码" name="生成二维码" rect="400,297,117,47" showT="true" expandT="true" />
+	<shapeText content="显示二维码库的版本号" layout.height="20" layout.width="auto" name="二维码版本显示" rect="389,123,126,20" showT="true" expandT="true" />
+</windowUI>

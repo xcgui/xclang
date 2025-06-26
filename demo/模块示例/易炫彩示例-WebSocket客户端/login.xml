@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="WebSocket客户端-登陆" name="登录窗口" rect="20,20,376,136" showT="true" windowStyle="1223" windowType="modalWindow">
+	<layoutEleUI layout.align="center" layout.float="true" layout.width="fill" layoutControl="true" padding="35,5,35,5" rect="8,30,100,30" showT="true" expandT="true">
+		<shapeText content="服务器地址:" layout.align="auto" layout.height="fill" layout.width="auto" rect="54,23,100,20" showT="true" expandT="true" />
+		<editUI content="ws://127.0.0.1:8089" layout.margin="5,0,0,0" layout.width=":1" name="服务器地址" rect="200,14,100,20" showT="true" expandT="true" />
+	</layoutEleUI>
+	<layoutEleUI layout.align="center" layout.float="true" layout.width="fill" layoutControl="true" padding="35,5,35,5" rect="8,59,461,30" showT="true" expandT="true">
+		<shapeText content="登陆用户名:" layout.align="auto" layout.height="fill" layout.width="auto" rect="74,43,100,20" showT="true" expandT="true" />
+		<editUI layout.margin="5,0,0,0" layout.width=":1" name="用户名" rect="220,34,100,20" showT="true" expandT="true" />
+	</layoutEleUI>
+	<layoutEleUI layout.align="auto" layout.float="true" layout.height=":1" layout.width="fill" layoutControl="true" padding="35,5,35,10" rect="8,88,461,40" showT="true" expandT="true">
+		<buttonUI content="登录" layout.float="true" layout.height="fill" name="按钮1" rect="100,8,60,25" showT="true" expandT="true" />
+	</layoutEleUI>
+</windowUI>

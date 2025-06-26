@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<project name="" ui_loadType="1" ui_zipPassword="" expand="1">
+	<language value="xc">
+		<compile debug="true" />
+	</language>
+	<modules>
+		<item path="module_base.h" name="基础模块" />
+		<item path="module_wrapper_tools.h" name="wrapper_tools" />
+		<item path="module_fmt.h" name="格式化" />
+		<item path="module_cpp_std.h" name="cpp_std" />
+		<item path="module_fmtlog.h" name="格式日志" />
+	</modules>
+	<vc config="Debug-CPP17" platform="x64" moduleLib="" autoDefFile="1" loadDllSymbol="0" moduleBeta="0">
+		<setting>
+			<config name="Debug-CPP17">
+				<x86>
+					<common debug="1" logo="/nologo" platformToolset="vs2022" runtimeLibrary="/MDd" sdk="Windows10" type="exe" warningLevel="/W3" />
+					<options value="/std:c++17" />
+					<options_link value="" />
+					<def_file path="" />
+					<out name="" out_path="" obj_path="" />
+					<include_path />
+					<lib_path />
+					<exe_path />
+					<lib_import />
+					<lib_ignore />
+					<macro />
+				</x86>
+				<x64>
+					<common debug="1" logo="/nologo" platformToolset="vs2022" runtimeLibrary="/MDd" sdk="Windows10" type="exe" />
+					<options value="/std:c++17" />
+					<options_link value="" />
+					<def_file path="" />
+					<out name="" out_path="" obj_path="" />
+					<include_path />
+					<lib_path />
+					<exe_path />
+					<lib_import />
+					<lib_ignore />
+					<macro />
+				</x64>
+			</config>
+		</setting>
+	</vc>
+	<codeExpand />
+	<watches />
+	<breakpoints />
+	<bookmarks />
+</project>

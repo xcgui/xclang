@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="gdiplus绘图-易团雪" enableLayout="true" rect="20,20,580,410" showT="true" windowStyle="1263">
+	<buttonUI bkInfoM="{99:1.9.9;98:16(0)32()64(1);5:2(15)20(1)21(3)26(1)22(-65536)23(255);5:2(15)20(1)21(3)26(1)22(-11318723)23(255);}" content="Button" expandT="true" rect="492,47,60,25" showT="true" transparent="true" />
+	<layoutFrameUI layout.height=":1" layout.width="fill" rect="112,147,100,100" scrollView.totalSize="10,1000" showT="true" expandT="true">
+		<buttonUI content="按钮1" rect="354,62,60,25" showT="true" expandT="true" />
+		<layoutEleUI rect="343,147,100,100" showT="true" expandT="true" />
+		<buttonUI content="按钮2" rect="315,60,60,25" showT="true" expandT="true" />
+	</layoutFrameUI>
+</windowUI>

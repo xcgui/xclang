@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head>
+	<bindJsFile value="" />
+	<bindClassName value="我的主窗口类">
+		<window />
+	</bindClassName>
+</head>
+<windowUI center="true" content="炫彩界面库 - 我的窗口名" rect="20,20,501,332" showT="true" windowStyle="2031">
+	<layoutFrameUI rect="31,48,300,200" showT="true" expandT="true">
+		<shapeGroupBox borderColor="#FF00FF80" content="GroupBox" rect="102,82,100,100" showT="true" textColor="#FFFF8080" expandT="true" />
+		<shapeText content="TextBlock" layout.height="20" layout.width="auto" rect="225,81,100,20" showT="true" expandT="true" />
+	</layoutFrameUI>
+</windowUI>

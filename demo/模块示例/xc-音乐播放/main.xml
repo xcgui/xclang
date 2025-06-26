@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head>
+	<bindJsFile value="" />
+	<bindClassName value="CMainFrame">
+		<window />
+	</bindClassName>
+</head>
+<windowUI bkInfoM="{99:1.9.9;3:2(48)3(323,85,0,0)4(@2.jpg);98:1(0);}" center="true" dragBorder="false" dragWindow="true" maxWindow="false" rect="20,20,332,94" showT="true" transparentFlag="shadow">
+	<buttonUI bkInfoM="{99:1.9.9;3:2(15)4(@bf1.png);3:2(37)3(0,22,0,0)4(@bf1.png);3:2(15)4(@bf2.png);3:2(48)3(44,22,0,0)4(@bf1.png);98:16(1)32(2)64(3);}" name="btn1" rect="148,67,44,22" showT="true" expandT="true" />
+	<buttonUI bkInfoM="{99:1.9.9;3:2(15)4(@bf1.png);3:2(15)4(@zt.PNG);3:2(15)4(@zt1.PNG);3:2(15)4(@zt.PNG);98:16(1)32(2)64(3);}" name="btn2" rect="224,67,44,22" showT="true" expandT="true" />
+	<buttonUI bkInfoM="{99:1.9.9;3:2(15)4(@bf1.png);3:2(48)3(44,22,0,0)4(@tz.PNG);3:2(15)4(@tz1.PNG);3:2(15)4(@tz.PNG);98:16(1)32(2)64(3);}" name="btn3" rect="75,67,44,22" showT="true" expandT="true" />
+	<buttonUI bkInfoM="{99:1.9.9;3:2(15)4(@bf1.png);3:2(15)4(@j2.png);3:2(15)4(@j1.png);3:2(15)4(@j.png);98:16(1)32(2)64(3);}" name="ylzj" rect="290,72,21,15" showT="true" textColor="#FFFF0080" transparent="true" expandT="true" />
+	<buttonUI bkInfoM="{99:1.9.9;3:2(15)4(@bf1.png);3:2(15)4(@jyl3.png);3:2(15)4(@jyl2.png);3:2(15)4(@jyl.png);98:16(1)32(2)64(3);}" name="yljx" rect="29,72,21,15" showT="true" transparent="true" expandT="true" />
+	<buttonUI bkInfoM="{99:1.9.9;3:2(15)4(@gp1.PNG);3:2(15)4(@gp1.PNG);98:16(0)32(1)64();}" content="、" rect="17,12,46,45" showT="true" transparent="true" expandT="true" />
+	<shapeGif image="@2.gif" rect="72,33,256,28" showT="true" expandT="true" />
+	<shapeText content="当前播放歌曲：中国人-刘德华" layout.height="20" layout.width="170" name="bjk1" rect="105,11,200,20" showT="true" expandT="true" />
+	<buttonUI bkInfoM="{99:1.9.9;3:2(15)4(@gb.PNG);3:2(15)4(@gb2.png);3:2(15)4(@gb3.png);98:16(0)32(1)64(2);}" buttonType="close" rect="298,6,28,18" showT="true" transparent="true" expandT="true" />
+</windowUI>

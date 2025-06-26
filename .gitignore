@@ -7,6 +7,9 @@ build/
 *.iobj
 *.ipdb
 *.ilk
+*.pch
+.vsidx
+.vs
 UI_ZIP.zip
 Debug/
 Release/

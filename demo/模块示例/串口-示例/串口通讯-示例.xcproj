@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="">
+	<language value="xc">
+		<compile debug="true" />
+	</language>
+	<vc config="Debug" platform="x86" />
+	<modules>
+		<item path="module_base.h" name="基础模块" />
+		<item path="module_xcgui.h" name="炫彩界面库" />
+		<item path="module_xcgui_class.h" name="炫彩界面库-类" />
+		<item path="module_windowsApi.h" name="系统API" />
+		<item path="module_CSerialPort.h" name="南_串口通讯" />
+	</modules>
+	<codeExpand />
+	<breakpoints />
+</project>

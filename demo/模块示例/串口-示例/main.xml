@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="串口数据通讯测试" rect="20,20,700,538" showT="true" windowStyle="1991">
+	<buttonUI content="发送" name="Button" rect="448,416,132,84" showT="true" expandT="true" />
+	<buttonUI content="打开" name="按钮_打开" rect="482,297,166,91" showT="true" expandT="true" />
+	<editUI contentTips="接收的数据在这显示" drawFocus="true" enable="true" enableFocus="true" multiLine="true" name="编辑框_接收" rect="57,63,407,244" scrollBarShowH="true" scrollBarShowV="true" showT="true" expandT="true" />
+	<editUI content="发送的数据内容" name="编辑框_发送" rect="37,428,358,67" showT="true" expandT="true" />
+	<comboBoxUI content="com2" name="下拉_端口" rect="548,59,102,24" showT="true" expandT="true" />
+	<comboBoxUI name="下拉_波特率" rect="548,101,100,20" showT="true" expandT="true" />
+	<comboBoxUI name="下拉_数据位" rect="550,139,100,20" showT="true" expandT="true" />
+	<comboBoxUI name="下拉_停止位" rect="546,178,100,20" showT="true" expandT="true" />
+	<buttonUI content="取可用串口" name="按钮_取可用串口" rect="112,339,145,52" showT="true" expandT="true" />
+	<shapeText content="COM端口&#10;COM端口" layout.height="20" layout.width="auto" rect="478,59,100,20" showT="true" expandT="true" />
+	<shapeText content="波特率&#10;COM端口" layout.height="20" layout.width="auto" rect="481,103,59,20" showT="true" expandT="true" />
+	<shapeText content="数据位&#10;COM端口" layout.height="20" layout.width="auto" rect="483,139,59,20" showT="true" expandT="true" />
+	<shapeText content="停止位&#10;COM端口" layout.height="20" layout.width="auto" rect="482,178,59,20" showT="true" expandT="true" />
+	<shapeText content="校验位&#10;COM端口" layout.height="20" layout.width="auto" rect="485,212,59,20" showT="true" expandT="true" />
+	<comboBoxUI name="下拉_校验位" rect="552,213,100,20" showT="true" expandT="true" />
+	<comboBoxUI name="下拉_流控制" rect="560,249,100,20" showT="true" expandT="true" />
+	<shapeText content="流控制&#10;COM端口" layout.height="20" layout.width="auto" rect="490,250,59,20" showT="true" expandT="true" />
+</windowUI>

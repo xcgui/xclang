@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI border="2,30,2,2" center="true" content="VLC播放器调用" enableLayout="true" rect="20,20,783,624" showT="true" windowStyle="2031">
+	<layoutEleUI expandT="true" layout.align="auto" layout.alignBaseline="center" layout.alignV="center" layout.margin="10,0,10,0" layout.width="fill" rect="304,24,767,31" showT="true">
+		<editUI expandT="true" layout.width=":1" name="编辑框1" rect="139,18,394,25" showT="true" />
+		<buttonUI content="打开" expandT="true" name="打开" rect="176,13,60,25" showT="true" />
+		<buttonUI content="播放" expandT="true" name="播放" rect="305,20,60,25" showT="true" />
+		<buttonUI content="暂停" expandT="true" name="暂停" rect="323,18,60,25" showT="true" />
+		<buttonUI content="音轨" expandT="true" name="音轨" rect="34,2,60,25" showT="true" />
+		<comboBoxUI expandT="true" name="下拉组合框1" rect="605,20,123,25" showT="true" />
+	</layoutEleUI>
+	<elementUI expandT="true" layout.height=":1" layout.margin="10,10,10,10" layout.width="fill" name="基础元素1" rect="19,36,750,548" showT="true" />
+	<layoutEleUI expandT="true" layout.margin="10,0,10,0" layout.width="fill" rect="64,610,759,30" showT="true">
+		<sliderBarUI enableFocus="false" expandT="true" horizon="true" id="播放进度" layout.width="fill" name="滑动条1" rect="249,20,100,20" showT="true" sliderBar.range="100" />
+	</layoutEleUI>
+</windowUI>
